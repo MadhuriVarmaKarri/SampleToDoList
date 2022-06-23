@@ -1,0 +1,28 @@
+{
+  "studentList": [
+    {
+      "name": "madhuri",
+      "course": "Mechanical",
+      "id": "123",
+      "DOJ": "2022-06-13T18:30:00.000Z"
+    },
+    {
+      "name": "rajuk",
+      "course": "Electrical",
+      "id": "124",
+      "DOJ": "2022-06-17T18:30:00.000Z"
+    },
+    {
+      "name": "Durga",
+      "course": "Electronics",
+      "id": "125",
+      "DOJ": "2022-06-17T18:30:00.000Z"
+    },
+    {
+      "name": "kusuma",
+      "course": "Mechanical",
+      "id": "126",
+      "DOJ": "2022-06-17T18:30:00.000Z"
+    }
+  ]
+}

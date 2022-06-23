@@ -1,0 +1,37 @@
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example-card {
+  width: 400px;
+  color: cornflowerblue;
+}
+
+.mat-card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mat-form-field {
+  width: 300px;
+}
+
+.mat-card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+::ng-deep .mat-raised-button{
+  width: 100px !important;
+}

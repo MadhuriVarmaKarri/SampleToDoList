@@ -1,0 +1,10 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.add-student {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.active{
+  background-color:  #5e5e5e;
+}

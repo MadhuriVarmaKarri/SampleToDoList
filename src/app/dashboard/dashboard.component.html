@@ -1,0 +1,15 @@
+<p>
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>supervised_user_circle</mat-icon>
+    </button>
+    <span> Student Dashboard </span>
+    <span class="example-spacer"></span>
+    <button mat-raised-button color="warn" [routerLink]="['/student-list']" routerLinkActive="active">Student List</button>
+    <button mat-raised-button color="warn" class="add-student" [routerLink]="['/add-student']" routerLinkActive="active">Add Student </button>
+    <button mat-raised-button color="warn"  routerLinkActive="active"(click)="onLogout()"> 
+      Logout  
+   </button>
+  </mat-toolbar>
+</p>
+<router-outlet></router-outlet>

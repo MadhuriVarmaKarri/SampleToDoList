@@ -1,0 +1,52 @@
+{
+  "studentList": [
+    {
+      "name": "K.Madhuri",
+      "course": "IT",
+      "id": "1",
+      "DOJ": "2022-06-20T18:30:00.000Z"
+    },
+    {
+      "name": "V.Kusuma",
+      "course": "Electronics",
+      "id": "2",
+      "DOJ": "2022-06-01T18:30:00.000Z"
+    },
+    {
+      "name": "K.Raju",
+      "course": "Electrical",
+      "id": "3",
+      "DOJ": "2022-06-06T18:30:00.000Z"
+    },
+    {
+      "name": "K.Durga",
+      "course": "Civil",
+      "id": "4",
+      "DOJ": "2022-06-01T18:30:00.000Z"
+    },
+    {
+      "name": "P. Rani",
+      "course": "Electronics",
+      "id": "5",
+      "DOJ": "2022-06-10T18:30:00.000Z"
+    },
+    {
+      "name": "S.sruthi",
+      "course": "Electrical",
+      "id": "6",
+      "DOJ": "2022-06-09T18:30:00.000Z"
+    },
+    {
+      "name": "A. Swetha",
+      "course": "Mechanical",
+      "id": "7",
+      "DOJ": "2022-06-14T18:30:00.000Z"
+    },
+    {
+      "name": "Karri",
+      "course": "CSE",
+      "id": "8",
+      "DOJ": "2022-06-29T18:30:00.000Z"
+    }
+  ]
+}

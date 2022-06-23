@@ -1,0 +1,50 @@
+<div class="back-button">
+  <mat-icon (click)="goBack()">arrow_back</mat-icon>
+  <mat-label>Back</mat-label>
+</div>
+<form [formGroup]="studentForm" class="container">
+  <p class="align-center">
+    <mat-form-field appearance="outline">
+      <mat-label> Student Name </mat-label>
+      <input formControlName="name" matInput>
+    </mat-form-field>
+  </p>
+  <p class="align-center">
+    <mat-form-field appearance="outline">
+      <mat-label> Student ID </mat-label>
+      <input formControlName="id" matInput>
+    </mat-form-field>
+  </p>
+  <p class="align-center">
+    <mat-form-field appearance="fill">
+      <mat-label> Student Course </mat-label>
+      <mat-select formControlName="course" placeholder="Course">
+        <mat-option value="CSE"> CSE </mat-option>
+        <mat-option value="IT"> IT </mat-option>
+        <mat-option value="Electronics"> Electronics </mat-option>
+        <mat-option value="Electrical"> Electrical </mat-option>
+        <mat-option value="Mechanical"> Mechanical </mat-option>
+        <mat-option value="Civil"> Civil </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </p>
+  <div class="align-center">
+    <mat-form-field appearance="fill">
+      <mat-label>Choose a date</mat-label>
+      <input formControlName="DOJ" matInput [matDatepicker]="picker">
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+  </div>
+
+  <div class="btns align-center">
+    <button mat-raised-button color="warn" (click)="onClose()"> Clear </button>
+    <button *ngIf="!isEditComp" mat-raised-button color="primary" style="margin-left:10px;"
+      (click)="addStudent(studentForm.value)"> Add
+    </button>
+    <button *ngIf="isEditComp" mat-raised-button color="primary" style="margin-left:10px;" (click)="updateData()">
+      Update</button>
+
+  </div>
+</form>
